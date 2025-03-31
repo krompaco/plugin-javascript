@@ -1,6 +1,6 @@
 {
   "name": "plugin-js",
-  "version": "2025.3.0",
+  "version": "2025.3.1",
   "type": "module",
   "exports": "./lib/index.js",
   "publishConfig": {
