@@ -1,5 +1,5 @@
 {
-  "name": "plugin-js",
+  "name": "plugin-javascript",
   "version": "2025.3.1",
   "type": "module",
   "exports": "./lib/index.js",
@@ -9,7 +9,7 @@
   "description": "Javascript plugin for sitespeed.io",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Webperf-se/plugin-js.git"
+    "url": "git+https://github.com/Webperf-se/plugin-javascript.git"
   },
   "keywords": [
     "sitespeed.io",
@@ -21,7 +21,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Webperf-se/plugin-js/issues"
+    "url": "https://github.com/Webperf-se/plugin-javascript/issues"
   },
   "husky": {
     "hooks": {

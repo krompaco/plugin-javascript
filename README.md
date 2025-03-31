@@ -1,9 +1,9 @@
-# plugin-js
+# plugin-javascript
 Javascript plugin for sitespeed.io
 
 ## Overview
 
-The `plugin-js` is a plugin for [sitespeed.io](https://www.sitespeed.io/) that helps identify and log "Javascript" (JS) errors during web testing. It integrates with sitespeed.io to provide detailed information about JS errors.
+The `plugin-javascript` is a plugin for [sitespeed.io](https://www.sitespeed.io/) that helps identify and log "Javascript" (JS) errors during web testing. It integrates with sitespeed.io to provide detailed information about JS errors.
 
 ## Features
 
@@ -13,7 +13,7 @@ The `plugin-js` is a plugin for [sitespeed.io](https://www.sitespeed.io/) that h
 To install the plugin, run the following command:
 
 ```sh
-npm install plugin-js
+npm install plugin-javascript
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ Add the plugin to your sitespeed.io configuration file:
 ```json
 {
   "plugins": {
-    "plugin-js": {
+    "plugin-javascript": {
       "enabled": true
     }
   }
@@ -39,7 +39,7 @@ Add the plugin to your sitespeed.io configuration file:
 You can also enable the plugin via the command line:
 
 ```sh
-sitespeed.io --plugins.add plugin-js
+sitespeed.io --plugins.add plugin-javascript
 ```
 
 ## Example
@@ -47,7 +47,7 @@ sitespeed.io --plugins.add plugin-js
 Here is an example of how to use the plugin with sitespeed.io:
 
 ```sh
-sitespeed.io https://www.example.com --plugins.add plugin-js
+sitespeed.io https://www.example.com --plugins.add plugin-javascript
 ```
 
 ## Development
