@@ -12,9 +12,9 @@ export default [{
     },
 
     rules: {
-        "no-console": "error",
+        "no-console": "warn",
         "no-undef": "error",
-        "no-unused-vars": ["error", {
+        "no-unused-vars": ["warn", {
             vars: "all",
             args: "after-used",
             ignoreRestSiblings: false,
