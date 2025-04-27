@@ -13,7 +13,10 @@ export default [{
 
     rules: {
         "no-console": "warn",
-        "no-undef": "error",
+        "no-undef": "warn",
+        "no-unmodified-loop-condition": "warn",
+        "no-useless-concat": "warn",
+        "no-useless-escape": "warn",
         "no-unused-vars": ["warn", {
             vars: "all",
             args: "after-used",

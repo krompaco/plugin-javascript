@@ -12,19 +12,15 @@ export default [{
     },
 
     rules: {
-        "no-eval": "warn",
-        "no-implied-eval": "warn",
+        "no-eval": "error",
+        "no-implied-eval": "error",
         "no-new-func": "warn",
-        "no-script-url": "warn",
+        "no-script-url": "error",
         "no-unsafe-finally": "error",
         "no-unsafe-negation": "error",
         "no-prototype-builtins": "warn",
-        "no-unmodified-loop-condition": "error",
-        "no-useless-concat": "warn",
-        "no-useless-escape": "warn",
         "no-with": "warn",
         "require-await": "warn",
-        "no-return-await": "warn",
         "eqeqeq": ["error", "always"],
     },
 }];
