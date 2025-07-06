@@ -31,7 +31,7 @@ jobs:
     - name: Install sitespeed.io
       run: |
         npm install sitespeed.io -g
-        cd ../plugin-accessibility-statement
+        cd ../plugin-javascript
         npm install
     - name: Start local HTTP server
       run: (npm run start-server&)
