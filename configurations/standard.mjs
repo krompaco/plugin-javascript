@@ -13,6 +13,8 @@ export default [{
 
     rules: {
         "no-console": "warn",
+        "no-debugger": "warn",
+        "no-unreachable": "warn",
         "no-undef": "warn",
         "no-unmodified-loop-condition": "warn",
         "no-useless-concat": "warn",
